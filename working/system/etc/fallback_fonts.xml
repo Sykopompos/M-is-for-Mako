@@ -181,6 +181,18 @@
     </family>
     <family>
         <fileset>
+            <file variant="elegant">NotoSansOriya-Regular.ttf</file>
+            <file variant="elegant">NotoSansOriya-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file variant="compact">NotoSansOriyaUI-Regular.ttf</file>
+            <file variant="compact">NotoSansOriyaUI-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
             <file>NotoSansSinhala-Regular.ttf</file>
             <file>NotoSansSinhala-Bold.ttf</file>
         </fileset>
@@ -223,7 +235,39 @@
     </family>
     <family>
         <fileset>
-            <file>NotoSansCherokee-Regular.ttf</file>
+            <file>NotoSansThaana-Regular.ttf</file>
+            <file>NotoSansThaana-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansCham-Regular.ttf</file>
+            <file>NotoSansCham-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansBalinese-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansBamum-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansBatak-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansBuginese-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansBuhid-Regular.ttf</file>
         </fileset>
     </family>
     <family>
@@ -233,17 +277,137 @@
     </family>
     <family>
         <fileset>
+            <file>NotoSansCherokee-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansCoptic-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansGlagolitic-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansHanunoo-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansJavanese-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansKayahLi-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansLepcha-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansLimbu-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansLisu-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansMandaic-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansMeeteiMayek-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansNewTaiLue-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansNKo-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansOlChiki-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansRejang-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansSaurashtra-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansSundanese-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansSylotiNagri-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansSyriacEstrangela-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansTagbanwa-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansTaiTham-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansTaiViet-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansTifinagh-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansVai-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
             <file>NotoSansYi-Regular.ttf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file lang="zh-Hans">NotoSansHans-Regular.otf</file>
+            <file lang="zh-Hans">NotoSansSC-Regular.otf</file>
         </fileset>
     </family>
     <family>
         <fileset>
-            <file lang="zh-Hant">NotoSansHant-Regular.otf</file>
+            <file lang="zh-Hant">NotoSansTC-Regular.otf</file>
         </fileset>
     </family>
     <family>
@@ -281,10 +445,18 @@
             <file lang="ja">MTLmr3m.ttf</file>
         </fileset>
     </family>
-    <!-- Note: complex scripts (i.e. those requiring shaping in Harfbuzz) have
-         a cumulative limit of 64k glyphs. Thus, if they are placed after the
-         large fonts such as DroidSansFallback, they are likely to render
-         incorrectly. Please use caution when putting fonts toward the end of
-         the list.
+    <!--
+        Tai Le and Mongolian are intentionally kept last, to make sure they don't override
+        the East Asian punctuation for Chinese.
     -->
+    <family>
+        <fileset>
+            <file>NotoSansTaiLe-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>NotoSansMongolian-Regular.ttf</file>
+        </fileset>
+    </family>
 </familyset>

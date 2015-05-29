@@ -58,11 +58,11 @@
         <group gid="log" />
     </permission>
 
-    <permission name="android.permission.READ_EXTERNAL_STORAGE" >
+    <permission name="android.permission.READ_EXTERNAL_STORAGE" perUser="true" >
         <group gid="sdcard_r" />
     </permission>
 
-    <permission name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    <permission name="android.permission.WRITE_EXTERNAL_STORAGE" perUser="true" >
         <group gid="sdcard_r" />
         <group gid="sdcard_rw" />
     </permission>
@@ -119,6 +119,10 @@
         <group gid="audio" />
     </permission>
 
+    <permission name="android.permission.ACCESS_FM_RADIO" >
+        <group gid="media" />
+    </permission>
+
     <!-- ================================================================== -->
     <!-- ================================================================== -->
     <!-- ================================================================== -->
@@ -145,7 +149,9 @@
     <library name="android.test.runner"
             file="/system/framework/android.test.runner.jar" />
     <library name="javax.obex"
-            file="/system/framework/javax.obex.jar"/>
+            file="/system/framework/javax.obex.jar" />
+    <library name="org.apache.http.legacy"
+            file="/system/framework/org.apache.http.legacy.jar" />
 
     <!-- These are the standard packages that are white-listed to always have internet
          access while in power save mode, even if they aren't in the foreground. -->
