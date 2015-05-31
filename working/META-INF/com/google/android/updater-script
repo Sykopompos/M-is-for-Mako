@@ -15,8 +15,9 @@ symlink("/system/lib/libjni_pacprocessor.so", "/system/app/PacProcessor/lib/arm/
 symlink("/system/lib/libnfc_nci_jni.so", "/system/app/NfcNci/lib/arm/libnfc_nci_jni.so");
 symlink("/system/lib/libprintspooler_jni.so", "/system/app/PrintSpooler/lib/arm/libprintspooler_jni.so");
 
-symlink("/system/lib/libwebviewchromium.so", "/system/app/webview/lib/arm/libwebviewchromium.so");
-
+symlink("/system/lib/libwebviewchromium.so", "/system/app/WebViewGoogle/lib/arm/libwebviewchromium.so");
+symlink("/system/lib/libvariablespeed.so", "/system/priv-app/GoogleDialer/lib/arm/libvariablespeed.so");
+symlink("/system/lib/libjni_latinimegoogle.so", "/system/app/LatinImeGoogle/lib/arm/libjni_latinimegoogle.so");
 symlink("Roboto-Bold.ttf", "/system/fonts/DroidSans-Bold.ttf");
 symlink("Roboto-Regular.ttf", "/system/fonts/DroidSans.ttf");
 symlink("app_process32", "/system/bin/app_process");
