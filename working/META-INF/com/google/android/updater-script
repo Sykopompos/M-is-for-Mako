@@ -8,24 +8,15 @@ symlink("/data/misc/audio/mbhc.bin", "/system/etc/firmware/wcd9310/wcd9310_mbhc.
 symlink("/data/misc/audio/wcd9310_anc.bin", "/system/etc/firmware/wcd9310/wcd9310_anc.bin");
 symlink("/data/misc/wifi/WCNSS_qcom_cfg.ini", "/system/vendor/firmware/wlan/prima/WCNSS_qcom_cfg.ini");
 symlink("/data/misc/wifi/WCNSS_qcom_wlan_nv.bin", "/system/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin");
-symlink("/system/lib/libWnnEngDic.so", "/system/app/OpenWnn/lib/arm/libWnnEngDic.so");
-symlink("/system/lib/libWnnJpnDic.so", "/system/app/OpenWnn/lib/arm/libWnnJpnDic.so");
 symlink("/system/lib/libbluetooth_jni.so", "/system/app/Bluetooth/lib/arm/libbluetooth_jni.so");
 symlink("/system/lib/libdefcontainer_jni.so", "/system/priv-app/DefaultContainerService/lib/arm/libdefcontainer_jni.so");
-symlink("/system/lib/libjni_eglfence.so", "/system/app/Gallery2/lib/arm/libjni_eglfence.so");
-symlink("/system/lib/libjni_filtershow_filters.so", "/system/app/Gallery2/lib/arm/libjni_filtershow_filters.so");
-symlink("/system/lib/libjni_jpegstream.so", "/system/app/Gallery2/lib/arm/libjni_jpegstream.so");
-symlink("/system/lib/libjni_jpegutil.so", "/system/app/Camera2/lib/arm/libjni_jpegutil.so");
-symlink("/system/lib/libjni_latinime.so", "/system/app/LatinIME/lib/arm/libjni_latinime.so");
+
 symlink("/system/lib/libjni_pacprocessor.so", "/system/app/PacProcessor/lib/arm/libjni_pacprocessor.so");
-symlink("/system/lib/libjni_tinyplanet.so", "/system/app/Camera2/lib/arm/libjni_tinyplanet.so");
 symlink("/system/lib/libnfc_nci_jni.so", "/system/app/NfcNci/lib/arm/libnfc_nci_jni.so");
 symlink("/system/lib/libprintspooler_jni.so", "/system/app/PrintSpooler/lib/arm/libprintspooler_jni.so");
-symlink("/system/lib/librsjni.so", "/system/app/Gallery2/lib/arm/librsjni.so");
-symlink("/system/lib/libttscompat.so", "/system/app/PicoTts/lib/arm/libttscompat.so");
-symlink("/system/lib/libttspico.so", "/system/app/PicoTts/lib/arm/libttspico.so");
+
 symlink("/system/lib/libwebviewchromium.so", "/system/app/webview/lib/arm/libwebviewchromium.so");
-symlink("/system/lib/libwnndict.so", "/system/app/OpenWnn/lib/arm/libwnndict.so");
+
 symlink("Roboto-Bold.ttf", "/system/fonts/DroidSans-Bold.ttf");
 symlink("Roboto-Regular.ttf", "/system/fonts/DroidSans.ttf");
 symlink("app_process32", "/system/bin/app_process");
