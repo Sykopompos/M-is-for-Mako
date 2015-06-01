@@ -82,6 +82,7 @@
 /dev/snd(/.*)?		u:object_r:audio_device:s0
 /dev/socket(/.*)?	u:object_r:socket_device:s0
 /dev/socket/adbd	u:object_r:adbd_socket:s0
+/dev/socket/sap_uim_socket[0-9] u:object_r:sap_uim_socket:s0
 /dev/socket/dnsproxyd	u:object_r:dnsproxyd_socket:s0
 /dev/socket/dumpstate	u:object_r:dumpstate_socket:s0
 /dev/socket/fwmarkd	u:object_r:fwmarkd_socket:s0
@@ -267,6 +268,7 @@
 /mnt/expand/[^/]+/app/vmdl[^/]+\.tmp/oat(/.*)?      u:object_r:dalvikcache_data_file:s0
 /mnt/expand/[^/]+/local/tmp(/.*)?                   u:object_r:shell_data_file:s0
 /mnt/expand/[^/]+/media(/.*)?                       u:object_r:media_rw_data_file:s0
+/mnt/expand/[^/]+/misc/vold(/.*)?                   u:object_r:vold_data_file:s0
 
 # coredump directory for userdebug/eng devices
 /cores(/.*)?                    u:object_r:coredump_file:s0
